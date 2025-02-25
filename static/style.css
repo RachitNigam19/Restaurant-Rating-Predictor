@@ -1,0 +1,88 @@
+body {
+  background-image: url("/static/image_converted.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.5); /* Dark transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  width: 450px; /* Adjust width for single-column layout */
+  text-align: center;
+  color: white;
+  margin-top: 6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+button {
+  width: 50%; /* Reduce button width */
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #cd7f32;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  background: #cd7f32;
+  padding: 10px;
+  font-weight: 900;
+  font-family: cursive;
+}
+button {
+  width: 100%;
+}
+.prediction-result {
+  font-size: 22px;
+  font-weight: bold;
+  color: yellow; /* Change to any color you want */
+  text-align: center;
+  margin-top: 15px;
+}
+.jattmehkma {
+  padding: 5px;
+  border: 5px 5px;
+  width: 20%;
+  text-align: center;
+  font-weight: 650;
+}
+.chalaja {
+  padding: 5px;
+  border: 5px 5px;
+  width: 20%;
+  text-align: center;
+  font-weight: 650;
+}
+.aaja {
+  padding: 5px;
+  border: 5px 5px;
+  width: 20%;
+  text-align: center;
+  font-weight: 650;
+}
+button:hover {
+  background-color: #218838;
+}
