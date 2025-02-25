@@ -60,13 +60,6 @@ json5==0.9.25
 jsonschema-specifications==2023.12.1
 jupyter_client==8.6.2
 keras==3.6.0
-Kivy==2.3.0
-kivy-deps.angle
-kivy-deps.glew
-kivy-deps.sdl2
-Kivy-Garden
-kivymd==1.1.1
-kv==0.4.1
 langcodes==3.4.1
 language_data==1.2.0
 libclang==18.1.1
